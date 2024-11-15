@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="mystyle.css">
+	</head>
+	<body>
+	<h1>HTML</h1>
+	<p>The Hyper Text Markup Language is a standard markup language fordocuments designedto be displayed in a web browser.It cand be assisted by technologies such as CSS and scripting languages like JavaScript.
+	</p>
+	</body>
+</html>
+
+
+
+//mystyle.css
+body{
+	background-color:Blue;
+}
+h1{
+	color:Crimson;
+	text-align:center;
+}
+p{
+	text-align:left;
+	color:Azure;
+}
