@@ -9,18 +9,17 @@ Confirm Password:<input type = "text" name="cpass"><br><br>
 <input type="submit" value="Register">
 
 <?php
-if(empty($_POST['username']) || empty($_POST['email']) || empty($_POST['pass']) empty($_POST['cpass']))
-
+if(empty($_POST['username']) || empty($_POST['email']) || empty($_POST['pass']) || empty($_POST['cpass']))
 {
 die("Please fill all required fields");
 }
-if($_POST['pass']!=$_POST['cpass'])
+elseif($_POST['pass']!=$_POST['cpass'])
 {
 die("Password and confirm password doesn't match");
 }
 else
 {
-die("Successfull");
+echo"Successfull";
 }
 ?>
 </form>
